@@ -39,6 +39,7 @@ main div{
 }
 
 .introduction{
+    
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
@@ -48,16 +49,18 @@ main div{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border-width:0px 0px 2px 5px;
+}
+
+.red h2{
+    color:#0D0D0D;
 }
 
 .blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-width: 2px 5px 0px 0px;
     
 }
 
@@ -71,18 +74,26 @@ main div{
     margin-left: 50px;
     border-bottom-width: 2px;
     border-left-width: 5px;
+    border-width: 0px 0px 2px 5px;
 }
 
 .yellow p{
     color: #707070;
 }
 
+.yellow h2{
+    color:#0D0D0D;
+}
+
 .green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-width: 2px 5px 0px 0px;
+}
+
+.green h2{
+    color:#0D0D0D;
 }
 
 footer{
